@@ -1,13 +1,13 @@
-import { Button } from "@/components/ui/button";
+
 import { ArrowRight, Phone } from "lucide-react";
-import heroCampus from "@/assets/hero-campus.jpg";
+
 
 const HeroSection = () => {
   return (
     <section id="inicio" className="relative min-h-[90vh] flex items-center overflow-hidden">
       <div className="absolute inset-0">
-        <img src={heroCampus} alt="Campus IAB FAPEGMA" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/80 to-primary/40" />
+        <div className="absolute inset-0 bg-primary"></div>   
+        
       </div>
 
       <div className="container mx-auto px-4 relative z-10 pt-16">
